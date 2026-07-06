@@ -7,7 +7,6 @@ public class GroupAnagramsLeetCode49 {
 
         String  strs[] = {"eat","tea","tan","ate","nat","bat"};
         List<List<String>> lstr = groupAnagrams(strs);
-        System.out.println(lstr);
 
     }
     public static List<List<String>> groupAnagrams(String[] strs){
