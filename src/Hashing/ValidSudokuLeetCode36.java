@@ -50,6 +50,7 @@ public class ValidSudokuLeetCode36 {
                 cols[c].add(val);
 
                 //check box
+                //Most important part
                 int idx = (r/3) * 3 +(c/3); //main formula
                 if(boxes[idx].contains(val)){
                     return false;
